@@ -1,6 +1,6 @@
 #global.R
 library(showtext)
-font_paths <- "C:/Users/shun/Documents/R/package/TDS_GUi/fonts"
+font_paths <- "C:/your/path"
 font_files <- list.files(font_paths, pattern = "\\.(ttf|otf|ttc)$", full.names = TRUE, ignore.case = TRUE)
 font_names <- tools::file_path_sans_ext(basename(font_files))
 for (i in seq_along(font_files)) {
